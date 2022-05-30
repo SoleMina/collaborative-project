@@ -23,7 +23,6 @@ const App = () => {
 
   return (
     <div className="App">
-      {/* <h1 className={"text-center" + currentTime < 12 ? "heading" : "heyy"}>{greeting}</h1> */}
       <Header></Header>
       <h1 className="text-center" style={{ color: customStyle.color }}>
         {greeting}

@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Icon, Image } from "semantic-ui-react";
+//Import style
 import "./CardUser.css";
 
 const CardUser = ({ user }) => {
@@ -10,7 +11,7 @@ const CardUser = ({ user }) => {
         <Card.Content>
           <Card.Header>{user.login}</Card.Header>
           <Card.Meta>
-            <span className="date">Joined in 2015</span>
+            <span className="date">Joined in 2019</span>
           </Card.Meta>
           <Card.Description>
             Matthew is a musician living in Nashville.
