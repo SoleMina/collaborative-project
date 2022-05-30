@@ -1,0 +1,14 @@
+.CardContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 25px;
+  flex-wrap: wrap;
+}
+
+.CardUser {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 20px;
+}
