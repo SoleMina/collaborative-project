@@ -1,6 +1,7 @@
 import "./App.css";
 import Contenedor from "./components/Contenedor";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   let greeting = "";
@@ -28,6 +29,7 @@ const App = () => {
         {greeting}
       </h1>
       <Contenedor></Contenedor>
+      <Footer></Footer>
     </div>
   );
 };
