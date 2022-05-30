@@ -1,0 +1,10 @@
+.ui.card > .extra,
+.ui.cards > .card > .extra {
+  background-color: #4169e1;
+}
+
+.ui.card > .extra a:not(.ui),
+.ui.cards > .card > .extra a:not(.ui),
+.icon {
+  color: white;
+}
