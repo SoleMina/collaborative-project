@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className="footer">
-      <h1>La Rosita es una seeeeexy</h1>
+      <h1>Todos los derechos reservados-&copy;2022 </h1>
     </div>
   );
 };
